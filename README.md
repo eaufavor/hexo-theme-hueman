@@ -80,6 +80,15 @@ favicon: /favicon.png
 - **google_analytics** - Google Analytics ID.
 - **favicon** - Favicon path.
 
+To change the logo icon in the header and footer, add the following to _config.yml:
+```yml
+# Logo url and optional width, height. Remove to use default.
+logo:
+  url: http://www.your-site.com/logo.gif
+  width: 300px
+  height: 50px
+```
+
 ## Languages
 
 English and Simplified Chinese are the default languages of the theme. You can add translations in the `languages` folder and change the default language in blog's `_config.yml`.
@@ -87,6 +96,20 @@ English and Simplified Chinese are the default languages of the theme. You can a
 ``` yml
 language: zh-CN
 ```
+
+## Swiftype
+
+You can now enable **Swiftype** by editing blog's `_config.yml`.
+
+``` yml
+swiftype_install_key: XXX_XXXXXXXXXXXXXXXX
+```
+
+This `install key` can be found at your own engine's install page:
+
+![](http://ppoffice.github.io/hexo-theme-hueman/gallery/swiftype_install.jpg "")
+
+Finally, don't forget to save your swiftype configuration to complete the installation.
 
 ## Features
 
